@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nXtzasLz6RbJ5WotGse6adzOxNEnRi6688/Ufw35HmU=",
+  "Source": "LegacyApp",
+  "BasePath": "_content/LegacyApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
