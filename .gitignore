@@ -1,17 +1,21 @@
-# Ignore Terraform files
+# Ignore Terraform cache & state
 .terraform/
 terraform.tfstate
 terraform.tfstate.*
-*.tfstate.backup
 terraform/.terraform.lock.hcl
 
-# Ignore compiled binaries and logs
+# Ignore .NET build artifacts
 bin/
 obj/
 *.log
 
+# Ignore user-specific files
+*.suo
+*.user
+*.vs
+.vscode/
+
 # Ignore sensitive files
 *.pem
 *.key
-
 
