@@ -14,7 +14,7 @@ This project demonstrates moving a .NET app to AWS EC2, ensuring scalability and
 
 - Secured with AWS Security Groups
 
-## Tech Stack ⚙️ 
+## Tech Stack  
 
 - AWS EC2 (t3.micro - Free Tier Eligible)
 
@@ -24,7 +24,7 @@ This project demonstrates moving a .NET app to AWS EC2, ensuring scalability and
 
 - .NET 8.0
 
-## Architecture 📂 
+## Architecture  
 
 (Local) → (AWS EC2) → (Application) → (HTTP Response)
 
@@ -33,7 +33,7 @@ This project demonstrates moving a .NET app to AWS EC2, ensuring scalability and
 - Installed .NET 8 and hosted the app
 - Automated the startup process using systemd
 
-## Deployment Steps 🚀 
+## Deployment Steps 
 
 ### 1. Clone the Repository
 ```bash
