@@ -1,21 +1,46 @@
-# Ignore Terraform cache & state
-.terraform/
-terraform.tfstate
-terraform.tfstate.*
+# 🔥 Ignore Terraform Cache and State Files
+terraform/.terraform/
 terraform/.terraform.lock.hcl
+terraform/terraform.tfstate*
+terraform/terraform.tfstate.backup
+terraform/.terraform/providers/
+terraform/.terraform.tfstate.d/
 
-# Ignore .NET build artifacts
+# 🔥 Ignore .NET Build Artifacts
 bin/
 obj/
-*.log
-
-# Ignore user-specific files
-*.suo
 *.user
-*.vs
+*.suo
+*.vs/
 .vscode/
+*.pidb
+*.svd
+*.log
+*.bak
 
-# Ignore sensitive files
+# 🔥 Ignore IDE & Editor Config Files
+*.sln.ide
+*.csproj.user
+*.DS_Store
+*.idea/
+*.iml
+*.sln.DotSettings.user
+
+# 🔥 Ignore Temporary Files
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+*.~*
+
+# 🔥 Ignore Private Keys & Security Files
 *.pem
 *.key
+*.pfx
+*.cer
+*.crt
 
+# 🔥 Ignore Build Output (if you publish)
+app/LegacyApp/out/
+app/LegacyApp/bin/
+app/LegacyApp/obj/
