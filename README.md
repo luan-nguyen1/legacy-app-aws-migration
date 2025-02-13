@@ -1,4 +1,4 @@
-# LegacyApp Migration to AWS 🏗 
+# LegacyApp Migration to AWS 
 
 Migrated a legacy .NET application from on-premise to AWS EC2 using Terraform for automation.
 
