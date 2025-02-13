@@ -1,0 +1,17 @@
+# Ignore Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Ignore compiled binaries and logs
+bin/
+obj/
+*.log
+
+# Ignore sensitive files
+*.pem
+*.key
+
+
