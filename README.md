@@ -69,23 +69,5 @@ Browser: http://$(terraform output -raw public_ip):5185
 curl http://$(terraform output -raw public_ip):5185
 ```
 
-## What This Project Proves  
-
-- You can migrate on-prem apps to AWS
-
-- You automated infrastructure with Terraform
-
-- You successfully ran a .NET app on EC2
-
-- You secured the instance & configured networking
-
-## Next Steps  
-
-- Add Auto Scaling with an ASG (Auto Scaling Group)
-
-- Move to AWS Lambda & API Gateway for cost savings
-
-- Containerize with Docker + ECS for better scalability
-
 ## Lessons Learned  
 [🔗 Read the technical breakdown on Medium ](https://medium.com/@luanmacek/building-a-serverless-api-with-aws-lambda-api-gateway-dynamodb-22c9bb06ef5b)
